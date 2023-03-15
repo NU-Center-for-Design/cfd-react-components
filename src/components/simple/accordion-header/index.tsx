@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function AccordionHeading(props:
+export default function AccordionHeader(props:
     {
         children: JSX.Element
         onClick?: React.MouseEventHandler<HTMLElement>
