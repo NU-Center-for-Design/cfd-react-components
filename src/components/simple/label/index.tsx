@@ -5,7 +5,7 @@ export default function Label(props:
         children: JSX.Element
         className?: string
         for?: string
-        id: string
+        id?: string
     }) {
     return (
         <label
