@@ -1,5 +1,5 @@
-import React from "react"
-import Label from "../../simple/label"
+import React from 'react'
+import Label from '../../simple/label'
 
 export default function Checkbox(props: 
     {
