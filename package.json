@@ -1,6 +1,6 @@
 {
   "name": "cfd-react-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A re-usable React component library for projects at the Center for Design at Northeastern University",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
