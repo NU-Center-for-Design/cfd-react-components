@@ -4,9 +4,11 @@
   "description": "A re-usable React component library for projects at the Center for Design at Northeastern University",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\"",
+    "rollup": "rollup -c" 
   },
-  "author": "",
+  "repository": "https://github.com/NU-Center-for-Design/cfd-react-components",
+  "author": "Matthew Blanco",
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.1",
