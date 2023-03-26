@@ -26,5 +26,8 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "sass": "^1.60.0"
+  }
 }
