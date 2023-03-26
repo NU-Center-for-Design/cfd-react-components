@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function LayoutHeader({ 
+export default function LayoutFooter({ 
     children,
     height
  }: { 
@@ -16,7 +16,7 @@ export default function LayoutHeader({
     }
 
     return (
-        <div className='header' style={style}>
+        <div className='footer' style={style}>
             {children}
         </div>
     )
