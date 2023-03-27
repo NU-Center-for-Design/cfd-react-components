@@ -2,10 +2,12 @@ import React from 'react'
 
 export default function LayoutFooter({ 
     children,
-    height
+    height,
+    className
  }: { 
     children: JSX.Element,
-    height: number
+    height: string,
+    className: string
  }) {
 
     const style = {
@@ -16,7 +18,7 @@ export default function LayoutFooter({
     }
 
     return (
-        <div className='footer' style={style}>
+        <div className={`footer ${className}`} style={style}>
             {children}
         </div>
     )

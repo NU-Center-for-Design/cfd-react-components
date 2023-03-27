@@ -2,10 +2,12 @@ import React from 'react'
 
 export default function LayoutHeader({ 
     children,
-    height
+    height,
+    className
  }: { 
     children: JSX.Element,
-    height: number
+    height: string,
+    className: string,
  }) {
 
     const style = {
@@ -16,7 +18,7 @@ export default function LayoutHeader({
     }
 
     return (
-        <div className='header' style={style}>
+        <div className={`header ${className}`} style={style}>
             {children}
         </div>
     )

@@ -2,8 +2,10 @@ import React from 'react'
 
 export default function VisualizationViewport({ 
     children,
+    className,
  }: { 
     children: JSX.Element,
+    className: string
  }) {
 
     const style = {
@@ -13,7 +15,7 @@ export default function VisualizationViewport({
     }
 
     return (
-        <div className='visualization-viewport' style={style}>
+        <div className={`visualization-viewport ${className}`} style={style}>
             {children}
         </div>
     )

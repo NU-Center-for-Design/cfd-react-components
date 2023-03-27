@@ -2,10 +2,12 @@ import React from 'react'
 
 export default function QueryMenu({ 
     children,
-    width
+    width,
+    className
  }: { 
     children: JSX.Element,
-    width: number
+    width: string,
+    className: string
  }) {
 
     const style = {
@@ -16,7 +18,7 @@ export default function QueryMenu({
     }
 
     return (
-        <div className='query-menu' style={style}>
+        <div className={`query-menu ${className}`} style={style}>
             {children}
         </div>
     )
