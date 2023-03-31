@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+const CloseArrow = require('./assets/close-arrow.svg')
+const OpenArrow = require('./assets/open-arrow.svg')
 
 export default function Accordion(props:
     {
@@ -6,9 +8,14 @@ export default function Accordion(props:
         className?: string
         id?: string
     }) {
+        const [isOpen, setOpen] = useState(false)
+
     return (
-        <details className={props.className} id={ props.id }>
+        <details style={{display: 'flex'}} className={props.className} id={ props.id }>
             { props.children }
+            {
+                isOpen ? <OpenArrow /> : <CloseArrow />
+            }
         </details>
     )
   }
