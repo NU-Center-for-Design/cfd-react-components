@@ -14,7 +14,7 @@ export default function Checkbox(props:
       value?: string | number
     }) {
     return (
-      <div>
+      <div style={{ display: "flex;", }}>
         <input
             type="checkbox"
             name={ props.name }
