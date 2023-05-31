@@ -18,7 +18,11 @@ export default function Form(props:
                 name={ props.name }
                 disabled={ props.disabled }
                 form={ props.form }
-                style={{ border: "none", }}
+                style={{ 
+                    border: "none",
+                    padding: 0,
+                    margin: 0,
+                }}
             >
                 { props.children }
             </fieldset>
