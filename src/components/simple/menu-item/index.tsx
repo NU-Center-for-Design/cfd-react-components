@@ -3,9 +3,9 @@ import React from 'react'
 export default function MenuItem(props: 
     {
         children: JSX.Element
+        key: string
         className?: string
         id?: string
-        key?: string
         value?: string
     }) {
     return (

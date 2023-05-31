@@ -10,11 +10,11 @@ export default function LayoutHeader({
     className: string,
  }) {
 
-    const style = {
+    const style: React.CSSProperties = {
         height: height,
         width: '100vw',
         display: "flex",
-        "flex-direction": "row",
+        flexDirection: 'row',
     }
 
     return (

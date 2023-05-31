@@ -10,11 +10,11 @@ export default function QueryMenu({
     className: string
  }) {
 
-    const style = {
+    const style: React.CSSProperties = {
         height: '100vh',
         width: width,
-        "overflow-y": "auto",
-        "overflow-x": "hidden",
+        overflowY: "auto",
+        overflowX: "hidden",
     }
 
     return (
