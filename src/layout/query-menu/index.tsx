@@ -3,11 +3,13 @@ import React from 'react'
 export default function QueryMenu({ 
     children,
     width,
-    className
+    className,
+    id,
  }: { 
     children: JSX.Element,
     width: string,
-    className: string
+    className: string,
+    id: string,
  }) {
 
     const style: React.CSSProperties = {
@@ -18,7 +20,7 @@ export default function QueryMenu({
     }
 
     return (
-        <div className={`query-menu ${className}`} style={style}>
+        <div id={id} className={`query-menu ${className}`} style={style}>
             {children}
         </div>
     )

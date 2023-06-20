@@ -3,11 +3,13 @@ import React from 'react'
 export default function LayoutHeader({ 
     children,
     height,
-    className
+    className,
+    id,
  }: { 
     children: JSX.Element,
     height: string,
     className: string,
+    id: string,
  }) {
 
     const style: React.CSSProperties = {
@@ -18,7 +20,7 @@ export default function LayoutHeader({
     }
 
     return (
-        <div className={`header ${className}`} style={style}>
+        <div id={id} className={`header ${className}`} style={style}>
             {children}
         </div>
     )
