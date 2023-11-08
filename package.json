@@ -6,6 +6,7 @@
     "test": "echo \"Error: no test specified\"",
     "rollup": "rollup -c --bundleConfigAsCjs"
   },
+  "engines": { "node": ">=18" } ,
   "repository": "https://github.com/NU-Center-for-Design/cfd-react-components",
   "author": "Matthew Blanco",
   "license": "MIT",
