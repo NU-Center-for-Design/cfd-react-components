@@ -1,12 +1,14 @@
 {
   "name": "cfd-react-components",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "A re-usable React component library for projects at the Center for Design at Northeastern University",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "rollup": "rollup -c --bundleConfigAsCjs"
   },
-  "engines": { "node": ">=18" } ,
+  "engines": {
+    "node": ">=18"
+  },
   "repository": "https://github.com/NU-Center-for-Design/cfd-react-components",
   "author": "Matthew Blanco",
   "license": "MIT",
